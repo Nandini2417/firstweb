@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1> 🎂 Sweet Bite Bakery</h1>
+    <p><strong>Freshly Backed</strong> with love every day</p>
+    </header>
+    <nav>
+        <a href="About">🎂About</a> |
+        <a href="Menu">🍰menu</a> |
+        <a href="Prices">💰Prices</a> |
+        <a href="Order">🛒Order</a> 
+    </nav>
+    <hr>
+    <main>
+        <section id="About">
+        <h2> 🍰About Bakery</h2>
+
+        <article>
+            <p>Sweet Bite Bakery offers a variety of delicious cakes, pastries, and sweet treats. 
+        We prepare our products using <strong>fresh and quality ingredients</strong> to give the best taste.
+    </p>
+    <p>
+        Our special chocolate cake is made with cocoa, cream, and H<sub>2</sub>O to keep it soft and tasty. 
+        We also prepare custom cakes for birthdays and other celebrations.
+    </p>
+    <p>Many customers rate our cake as No.1<sup>st</sup> choice for parties. 
+        Our goal is to provide 100% satisfaction to every customer.</p>
+    <img src="https://tse1.mm.bing.net/th/id/OIP.14RYCS4rAqfZa1D7jfd6VAHaEp?pid=Api&P=0&h=180"
+    alt="bakery">
+        </article>
+
+        <aside>
+            <h3>Special Offer</h3>
+            <p>Buy 1 Cake & Get 1 Pastry Free!</p>
+        </aside>
+        <hr>
+        <section id="menu">
+            <h2>🍰Our Menu</h2>
+            <h3>🎂Cakes</h3>
+            <ul>
+                <li>Chocolate Hazelnut Cake</li>
+                <li>Black Forest Cake</li>
+                <li>Red Velvet Cake</li>
+                <li>Vanilla Cake</li>
+                <li>pineapple cake</li>
+            </ul>
+
+            <h3>Top 5 Best-Selling Item</h3>
+            <ol>
+                <li>Chocalate Truffle</li>
+                <li>Butterscotch Pastry</li>
+                <li>strawberry cheescake</li>
+                <li>Red Velvet Cake</li>
+                <li>fruit Pastry</li>
+            </ol>
+        </section>
+        <hr>
+        <section id="prices">
+            <h2>💰Price List</h2>
+            <table border="1">
+                <caption>Bakery Price Chart</caption>
+
+                <thead>
+                    <tr>
+                        <th>Item Name</th>
+                        <th>Category</th>
+                        <th>Half Kg</th>
+                        <th>1 Kg</th>
+                        <th>Per Price</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                    <td>Chocolate Truffle</td>
+                    <td>Cake</td>
+                    <td>350Rs.</td>
+                    <td>750Rs.</td>
+                    <td>-</td>
+                    </tr>
+
+                    <tr>
+                    <td>Red Velvet</td>
+                    <td>Cake</td>
+                    <td>400Rs.</td>
+                    <td>800Rs.</td>
+                      <td>-</td>
+                    </tr>
+
+                    <tr>
+                    <td>Butterscotch Pastry</td>
+                    <td>Pastry</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>80Rs.</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Vanilla Cupcake</td>
+                    <td>Cupcake</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>60Rs.</td>
+                    </tr>
+
+                    <tr>
+                    <td>Strawberry Cheesecake</td>
+                    <td>Cheesecake</td>
+                    <td>450Rs.</td>
+                    <td>900Rs</td>
+                      <td>-</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="5">
+                            10% discount available on orders above 2000Rs.
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <hr>
+
+        <section id="order">
+            <h2>🛒Order Now</h2>
+            <form>
+                  <label for="fname"><b>Full Name:</b></label>
+                  <input type="text" id="name" name="fname" placeholder="Enter Your Full Name" required>
+                  <br><br>
+                  <label for="email"><b>Email:</b></label>
+                  <input type="email" id="email" name="email" placeholder="Enter Your Valid Email ID" required>
+                  <br><br>
+                  <label for="pass"><b>Password</b></label>
+                  <input type="password" id="pass" name="pass" placeholder="Enter Your Password" required>
+                  <br><br>
+                  <label for="phone"><b>Phone Number:</b></label>
+                  <input type="number" id="phone" name="number" placeholder="Enter Your Phone Number">
+                  <br><br>
+
+                  <label for="cake"><b>Select Cake: </b></label><br>
+                  <input type="radio" name="cake" >Chocolate cake<br>
+                  <input type="radio" name="cake" >Black Forest<br>
+                  <input type="radio" name="cake" >Red Velvet<br><br>
+
+                  <label for="size"><b>Size:</b></label>
+                  <input type="radio" name="size">Half kg  
+                  <input type="radio" name="size"> 1 kg<br><br>
+                   
+                   <input type="submit" value="Order" />
+                  <input type="Reset" value="Reset" />
+
+            </form>
+        </section>
+
+        <hr>
+        <section>
+            <h2>Bakery Video</h2>
+
+            <video width="320" controls>
+                <source src="video.mhtml">
+            </video>
+
+        <h3>welcome audio</h3>
+        <audio controls>
+            <source src="aouido.mp3" type="audio">
+        </audio>
+
+        <h3>YouTube Video</h3>
+        <iframe width="560" height="315"
+         src="https://www.youtube.com/embed/J7bjH5IdMjc?si=Wfvetna4Ew2xM6VQ" 
+         title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+           referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+        </section>
+    </main>
+    <footer>
+        <p>
+            📧Contact:<a href="dongarenandini54@gmail.com">dongarenandini54@gmail.com</a>
+         </p>
+         <a href="https://github.com/dongarenandini54">Git hub</a> <br>
+         <a href="https://www.linkedin.com/in/nandini-dongare"> linkedin </a>
+
+    </footer>
+</body>
+</html>
